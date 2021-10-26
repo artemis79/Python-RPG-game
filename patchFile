@@ -1,0 +1,18 @@
+diff --git a/FileB.txt b/FileB.txt
+index 8dc81a7..07e16d5 100644
+--- a/FileB.txt
++++ b/FileB.txt
+@@ -1 +1,2 @@
+-hi this is a B file
+\ No newline at end of file
++hi this is a B file
++bye
+\ No newline at end of file
+diff --git a/FileC.txt b/FileC.txt
+index 9494902..3dcfe85 100644
+--- a/FileC.txt
++++ b/FileC.txt
+@@ -1 +1,2 @@
+ hi this is a c file
++bye
+\ No newline at end of file
