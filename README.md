@@ -61,18 +61,12 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Game structure">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Attack">Attack</a></li>
+        <li><a href="#Magic">Magic</a></li>
+        <li><a href="#Inventory">Inventory</a></li>
       </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -99,62 +93,35 @@ It is a startigic multiplayer game you can define number of players on your side
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Game Structure
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Each player has a choice to do a normal attack a cast a spell or use an item from the inventory
 
-### Prerequisites
+### Attack
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+each player has a damage that upon attack the damage will be deducted from the enemies health. there is also a chance for critical hit
 
-### Installation
+### Magic
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+There are two types of spell each player can choose from. the spells are either destructive or healing. casting a spell uses your mana.
+The list of spell is as followes:
+
+1. Fire         (destructive)
+2. Thunder      (destructive)
+3. Ice          (destructive)
+4. cure         (healing)
+5. cura         (healing)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Inventory
 
+There are two items in the inventory that each player can choose from
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+1. bomb              (Deals damage to all enemies)
+2. potion small      (heals a percent of users health)
+3. potion big        (heals all members of a group)
 
 
 <!-- CONTRIBUTING -->
@@ -178,7 +145,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the Apache 2.0 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -187,37 +154,27 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Mahshid Rahmani - mahshidrahmani2001@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/artemis7/Python-RPG-game](https://github.com/artemis7/Python-RPG-game)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/artemis79/Python-RPG-game.svg?style=for-the-badge
+[contributors-url]: https://github.com/artemis79/Python-RPG-game/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/artemis79/Python-RPG-game.svg?style=for-the-badge
+[forks-url]: https://github.com/artemis79/Python-RPG-game/network/members
+[stars-shield]: https://img.shields.io/github/stars/artemis79/Python-RPG-game.svg?style=for-the-badge
+[stars-url]: https://github.com/artemis79/Python-RPG-game/stargazers
+[issues-shield]: https://img.shields.io/github/issues/artemis79/Python-RPG-game.svg?style=for-the-badge
+[issues-url]: https://github.com/artemis79/Python-RPG-game/issues
+[license-shield]: https://img.shields.io/github/license/artemis79/Python-RPG-game.svg?style=for-the-badge
+[license-url]: https://github.com/artemis79/Python-RPG-game/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
